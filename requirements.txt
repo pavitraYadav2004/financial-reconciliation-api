@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+rapidfuzz
+pytest
+pydantic
+python-multipart
