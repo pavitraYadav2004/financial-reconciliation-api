@@ -1,3 +1,5 @@
+# Fuzzy matching module using RapidFuzz
+# Implements confidence scoring algorithm for financial record matching
 import re
 from rapidfuzz import fuzz
 
