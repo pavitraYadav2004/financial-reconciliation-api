@@ -1,3 +1,5 @@
+# Reconciliation service with async processing
+# Processes records concurrently using asyncio.gather()
 import asyncio
 
 from app.services.matcher import calculate_confidence
