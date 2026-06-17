@@ -1,0 +1,33 @@
+# Create .gitignore with proper content
+New-Item -Path ".gitignore" -ItemType File -Force
+Add-Content ".gitignore" @"
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+"@
+
+git add .gitignore
+git commit -m "Add gitignore for Python development and sensitive files"
+git push
