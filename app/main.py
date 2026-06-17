@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from app.routes.reconciliation import router
 import logging
 
+# Financial Reconciliation API v1.0
+# Features: fuzzy matching, async processing, confidence scoring
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
